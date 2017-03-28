@@ -22,6 +22,9 @@
         "symfony/css-selector": "~2.1",
         "cache/filesystem-adapter": "^0.3.2"
     },
+    "replace": {
+        "kunstmaan/google-api-custom": "*"
+    },
     "suggest": {
         "cache/filesystem-adapter": "For caching certs and tokens (using Google_Client::setCache)"
     },
@@ -35,7 +38,8 @@
     },
     "extra": {
         "branch-alias": {
-            "dev-master": "2.x-dev"
+            "dev-master": "2.x-dev",
+            "dev-zizoo": "2.x-dev"
         }
     }
 }
